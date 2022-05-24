@@ -1,24 +1,24 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Parcel Sandbox</title>
+    <title>Consumindo API-B3</title>
     <meta charset="UTF-8" />
-    <style>
-      table,
-      tr,
-      th,
-      td {
-        border: 1px solid;
-      }
-    </style>
+    <link rel="stylesheet" href="src/styles.css">
   </head>
 
   <body>
-    <p>Digite o nome da Ação:</p>
-    <input type="text" id="acao" class="text-left" />
-    <button>Gerar cotação</button>
+    <p style="text-align: center;">
+      <img src="./img/oi.png"  style="width: 350px;">
+    </p> 
+    <div class="centerpesq"> 
+    <input type="text" id="acao" class="pesquisaacao" placeholder="Digite o nome da Ação" />
+    <button class="btnpesq">Gerar cotação</button>
+    </div>
+    <p>
+
+    </p>
+    <div id="corpo" class="corpocss"></div>
     <script src="src/index.js"></script>
-    <div id="corpo"></div>
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
   </body>
 </html>
