@@ -6,12 +6,12 @@ const thead = document.createElement("thead");
 const tbody = document.createElement("tbody");
 
 
-  // Promisse para realizar requisição
-  axios
-    .get("https://api-cotacao-b3.labdo.it/api/cotacao/cd_acao/" + acao)
-    .then((resp) => {
-      //Requisitar cotação para o ação(imput) informada
-      btn.addEventListener("click", function () {
+// Promisse para realizar requisição
+axios
+  .get("https://api-cotacao-b3.labdo.it/api/cotacao/cd_acao/" + acao)
+  .then((resp) => {
+    //Requisitar cotação para o ação(imput) informada
+    btn.addEventListener("click", function () {
       const acao = document.getElementById("acao").value;
 
       // gerando tabela com os dados requisitados da API
@@ -55,10 +55,10 @@ const tbody = document.createElement("tbody");
         row.appendChild(heading_4);
         thead.appendChild(row);
       }
-    })
-    .catch((err) => {
-      console.log(err);
-    });
+  })
+})
+.catch((err) => {
+  console.log(err);
 });
 
 // API utilizada: https://api-cotacao-b3.labdo.it/
