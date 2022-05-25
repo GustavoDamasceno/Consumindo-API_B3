@@ -37,6 +37,7 @@ axios
       row_1.appendChild(heading_3);
       row_1.appendChild(heading_4);
       thead.appendChild(row_1);
+
       for (let index = 0; index < resp.data.length; index++) {
         // Inserindo os data's da requisição no corpo da tabela
         let row = document.createElement("tr");
@@ -56,9 +57,10 @@ axios
         thead.appendChild(row);
       }
     })
+    .catch((err) => {
+      console.log(err);
+    })
   })
-  .catch((err) => {
-    console.log(err);
-  })
+
 
 // API utilizada: https://api-cotacao-b3.labdo.it/
