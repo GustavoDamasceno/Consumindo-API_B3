@@ -55,10 +55,10 @@ axios
         row.appendChild(heading_4);
         thead.appendChild(row);
       }
+    })
   })
-})
-.catch((err) => {
-  console.log(err);
-});
+  .catch((err) => {
+    console.log(err);
+  })
 
 // API utilizada: https://api-cotacao-b3.labdo.it/
