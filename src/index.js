@@ -13,7 +13,7 @@ const tbody = document.createElement("tbody");
       btn.addEventListener("click", function () {
         const acao = document.getElementById("acao").value;
 
-        // gerando tabela com os dados requisitados da API
+        // gerando tabela com os dados requisitados da api
         table.appendChild(thead);
         table.appendChild(tbody);
 
