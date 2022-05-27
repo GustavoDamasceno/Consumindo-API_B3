@@ -2,7 +2,7 @@
 
 ### Consumindo API com axios no front-end
 
-![]([http://i.imgur.com/OUkLi.gif](https://media.discordapp.net/attachments/632579623569457152/979755075901722664/Consumindo_API-B3.gif))
+![](https://media.discordapp.net/attachments/632579623569457152/979755075901722664/Consumindo_API-B3.gif)
 
 
 Consumindo API da B3 - Bolsa de valores brasileira (https://api-cotacao-b3.labdo.it/)
