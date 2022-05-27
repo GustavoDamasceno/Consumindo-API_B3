@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Consumindo API-B3</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="src/styles.css" />
+  </head>
+
+  <body>
+    <p style="text-align: center;">
+      <img src="./img/oi.png" style="width: 350px;" />
+    </p>
+    <div class="centerpesq">
+      <input
+        type="text"
+        id="acao"
+        class="pesquisaacao"
+        placeholder="Digite o nome da Ação"
+      />
+      <button class="btnpesq">Gerar cotação</button>
+    </div>
+    <p></p>
+    <div id="cards" class="cards" style="display: none;">
+      <div class="box">
+        <div id="graficomedioum">
+          <div class="box__item box__item--vue">
+            <image class="iconscard" src="./img/grafico-de-barras.png"></image>
+          </div>
+          <div class="box__bg"></div>
+        </div>
+        <div id="corpoum">
+          <div class="box__item box__item--react">
+            <image class="iconscard" src="./img/tabela.png"> </image>
+          </div>
+          <div class="box__bg"></div>
+        </div>
+      </div>
+    </div>
+    <div id="corpo" class="corpocss" style="display: none;"></div>
+    <div id="graficomedio" class="grafcss" style="display: none;">
+      <canvas id="myChart"></canvas>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="src/index.js"></script>
+  </body>
+</html>
