@@ -36,5 +36,5 @@ Vale destacar que o autor da API, se exonerou de responsabilidade pois, Essa API
 No caso do sistema, o usuário digitará o nome da ação e recebera os valores máximos e mínimos de cada dia.
 
 
-Foi utilizado o axios que é um cliente HTTP baseado-em-promessas para o node.js e para o navegador. É isomórfico (= pode rodar no navegador e no node.js com a mesma base de código). No lado do servidor usa o código nativo do node.js - o modulo http, enquanto no lado do cliente (navegador) usa XMLHttpRequests.
+Foi utilizado o axios que é um cliente HTTP baseado em promisses para o node.js e para o navegador. É isomórfico (pode rodar no navegador e no node.js com a mesma base de código). No lado do servidor usa o código nativo do node.js - o modulo http, enquanto no lado do cliente (navegador) usa XMLHttpRequests.
 
